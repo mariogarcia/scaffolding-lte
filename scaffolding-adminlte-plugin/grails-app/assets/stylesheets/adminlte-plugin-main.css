@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+.nav-item a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-header > .card-tools .nav {
+    margin-top: 0;
+}
+
+.card-body p {
+    margin-bottom: .5em;
+}
+
+ul.nav-grails {
+    margin-bottom: .8em; margin-left: 0.2em;
+}
+
+ul.nav-grails li {
+    margin-right: .5em;
+}
+
+fieldset.buttons {
+    margin-top: 2em;
+}
+
+fieldset.buttons a {
+    width: 10em;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2em 2.5em 2em 1em;
+}
+
+span.currentStep {
+  color: white;
+  background: var(--default);
+  border: 1px solid var(--default);
+  padding: .5rem .75rem;
+}
+
+.pagination a {
+  border: 1px solid #cccccc;
+  color: #333333;
+  padding: .5rem .75rem;
+}
+
+body.login-page {
+    background-color: gray;
+}
+
+.remember {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.remember input {
+    margin: 0;
+    padding: 0;
+    width: 1em;
+}
+
+.remember label {
+    margin-left: .5em;
+    line-height: 1em;
+    padding: 0;
+}
+
+.login-page {
+    background-image: url('/assets/login-bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.login-logo {
+    color: black;
+}
+
+.login-logo img {
+    width: 3em;
+}
+
+input[type='file'] {
+    border: 1px solid #ebebeb;
+    display: block;
+    width: 40em;
+}
+
+.widget-user-2 .widget-user-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card-info:not(.card-outline) .card-header {
+    background-color: #92a3957a;
+    color: #3e6956;
+}
+
+.bg-info .btn-tool, .bg-gradient-info .btn-tool, .card-info:not(.card-outline) .btn-tool,
+.bg-info .btn-tool:hover, .bg-gradient-info .btn-tool:hover, .card-info:not(.card-outline) .btn-tool:hover {
+    color: #3e6956;
+}
+
+.show-data {
+    display: flex;
+}
+
+.block-data {
+    background-color: #60804d12;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 45%;
+}
+
+.error span.select2-selection.select2-selection--single {
+    border-color: var(--red);
+}
+
+.error div.note-editor.note-frame.card {
+    border-color: var(--red);
+}
+
+.breadcrumb-item {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.show-html {
+    border: 1px solid var(--cyan);
+    padding: 1.5em;
+}
+
+.profile-username {
+    margin-bottom: 2em;
+}
+
+.profile-username-compact {
+    margin-bottom: 0em;
+}
+
+.img-profile {
+    height: 160px;
+    width: 160px;
+}
+
+.table-ma td {
+    height: 4em;
+    vertical-align: middle;
+}
+
+.table-ma td.contained {
+    line-height: 1.5em;
+}
+
+.table-ma td.actions {
+    width: 18em;
+}
+
+.manyToMany-inline {
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.manyToMany-inline li {
+    display: inline;
+}
+
+.manyToMany-inline li:after {
+    content: ", ";
+}
+
+.manyToMany-inline li:last-child:after {
+    content: "";
+}
+
+.user-table-photo-block img {
+    height: 50px;
+    width: 50px;
+}
+
+.custom-file > label {
+    line-height: 2em;
+    overflow: hidden;
+    padding-right: 4em;
+}
+
+.nav-tabs .nav-link.disabled {
+    color: var(--cyan);
+}
+
+td > form {
+    display: inline;
+}
+
+img.dashboard {
+    width: 7em;
+    margin-bottom: .5em;
+}
+
+img.section {
+    height: 100%;
+    width: 40%;
+    opacity: .2;
+    margin: auto;
+    vertical-align: middle;
+}
+
+ul.errors {
+    margin-bottom: 0;
+}
+
+.property-list dt {
+    margin-bottom: .5em;
+}
+
+.property-list dd {
+    margin-bottom: 1em;
+}

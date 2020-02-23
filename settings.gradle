@@ -1,0 +1,4 @@
+
+rootProject.name = 'scaffolding-adminlte' 
+
+include 'scaffolding-adminlte-plugin', 'scaffolding-adminlte-example'
